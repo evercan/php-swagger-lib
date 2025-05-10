@@ -1,0 +1,17 @@
+{
+    "name": "seunome/php-swagger-lib",
+    "description": "Biblioteca para gerar documentação Swagger para APIs Laravel",
+    "type": "library",
+    "require": {
+      "php": "^8.4",
+      "zircote/swagger-php": "^4.10"
+    },
+    "autoload": {
+      "psr-4": {
+        "SwaggerLib\\": "src/"
+      }
+    },
+    "bin": [
+      "bin/swagger-generate"
+    ]
+  }

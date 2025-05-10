@@ -1,0 +1,23 @@
+# PHP Swagger Lib
+
+Uma biblioteca PHP pura para gerar documentação Swagger (OpenAPI) para APIs Laravel (ou qualquer projeto PHP), com suporte automático a comandos Artisan e geração de JSON/YAML.
+
+## 🚀 Recursos
+
+- Compatível com Laravel (via auto-discovery)
+- Geração de documentação a partir de anotações (OpenAPI)
+- Suporte a múltiplos formatos: JSON ou YAML
+- Integração com comandos Artisan: `php artisan swagger:generate`
+- Possibilidade de customizar os diretórios e formato de saída
+- Publicação de arquivo de configuração (`config/swagger.php`)
+
+---
+
+## 📦 Instalação
+
+### Laravel
+
+Adicione ao seu `composer.json`:
+
+```bash
+composer require seuusuario/php-swagger-lib
